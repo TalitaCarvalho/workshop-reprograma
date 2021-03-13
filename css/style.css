@@ -1,0 +1,139 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a{
+    text-decoration: none;
+}
+
+h1{
+    font-size: 48px;
+    margin-bottom: 24px;
+}
+
+h3 {
+    margin-bottom: 16px;
+    font-size: 18px;
+}
+
+
+.banner{
+    background: url(../img/minha-foto.jpeg) no-repeat center;
+    background-size: cover;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #b3fff5;
+    text-align: center;
+}
+
+.text-area {
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 300px;
+}
+
+.subtitulo{
+    margin-bottom: 36px;
+    font-size: 22px;
+
+}
+
+.botao{
+    background-color: rgb(151, 80, 151);
+    color: white;
+    padding: 15px;
+    border-radius: 30px;
+  
+}
+.botao:hover {
+    background-color: rgb(128, 63, 128);
+}
+
+.sobre {
+    margin: 24px;
+}
+.sobre-flex{
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+    line-height: 1.5em;
+    margin-left: 100px;
+}
+
+.sobre-descricao {
+    width: 40%;
+    
+}
+
+.sobre-descricao p{
+    margin-bottom: 24px ;
+}
+
+.sobre-habilidades{
+    width: 40%;
+}
+
+.titulo-sobre{
+    margin-bottom: 24px;
+    text-align: center;
+    color: #67bdb1;
+}
+
+
+.botao-sobre{
+    background-color: white;
+    border: rgb(122, 58, 122) solid 3px;
+    color:rgb(122, 58, 122);
+    padding: 15px;
+    border-radius: 30px;  
+}
+
+.botao-sobre:hover {
+    color: white;
+    background-color: rgb(122, 58, 122);
+}
+
+.redes {
+    display: flex;
+    justify-content: center;
+    margin-top: 62px;
+   
+}
+
+.redes-links {
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #7E459B;
+    width: 18%;
+    height: 190px;
+    margin: 16px;
+    clip-path: circle(40% at 50% 50%);
+    transition: all 0.3s ease-in-out;
+}
+
+.redes-links:hover {
+    clip-path: circle(100%);
+    border-radius: 15px;
+}
+
+.redes-links__img {
+    margin-bottom: 10px;
+}
+
+.redes-links__titulo {
+    margin-bottom: 16px;
+}
